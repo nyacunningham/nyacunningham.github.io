@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">Your Name</div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title">Hi, I'm <span class="highlight">Your Name</span></h1>
+            <p class="hero-subtitle">Web Developer & Designer</p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="assets/resume.pdf" class="btn btn-secondary" target="_blank">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>I'm a passionate web developer with expertise in creating beautiful and functional websites. I love turning ideas into reality through clean code and thoughtful design.</p>
+                    <p>My skills include HTML, CSS, JavaScript, React, and various modern web technologies. I'm always eager to learn new things and take on challenging projects.</p>
+                    <div class="skills">
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">React</span>
+                        <span class="skill-tag">Node.js</span>
+                        <span class="skill-tag">UI/UX Design</span>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="profile-placeholder">
+                        <img src="assets/profile.jpg" alt="Your Name" onerror="this.style.display='none'; this.parentElement.style.background='#f0f0f0';">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">Project 1</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Project Title 1</h3>
+                        <p>Short description of your project. What technologies did you use?</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">Live Demo</a>
+                            <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">Project 2</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Project Title 2</h3>
+                        <p>Short description of your project. What technologies did you use?</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">Live Demo</a>
+                            <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-placeholder">Project 3</div>
+                    </div>
+                    <div class="project-info">
+                        <h3>Project Title 3</h3>
+                        <p>Short description of your project. What technologies did you use?</p>
+                        <div class="project-links">
+                            <a href="#" class="btn btn-small">Live Demo</a>
+                            <a href="#" class="btn btn-small btn-outline">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p>Feel free to reach out for collaborations or just a friendly hello!</p>
+            <div class="contact-links">
+                <a href="mailto:your.email@example.com" class="contact-link">
+                    <span class="contact-icon">📧</span>
+                    your.email@example.com
+                </a>
+                <a href="https://linkedin.com/in/yourprofile" class="contact-link" target="_blank">
+                    <span class="contact-icon">💼</span>
+                    LinkedIn
+                </a>
+                <a href="https://github.com/yourusername" class="contact-link" target="_blank">
+                    <span class="contact-icon">🐙</span>
+                    GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Your Name. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
